@@ -1,0 +1,29 @@
+{
+  "name": "shell-sleeper",
+  "version": "1.0.0",
+  "description": "An alternative to setTimeout and setInterval powered by the shell sleep command.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambdacasserole/shell-sleeper.git"
+  },
+  "keywords": [
+    "timeout",
+    "interval",
+    "shell",
+    "sleep"
+  ],
+  "author": "Saul Johnson <saul.a.johnson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambdacasserole/shell-sleeper/issues"
+  },
+  "homepage": "https://github.com/lambdacasserole/shell-sleeper#readme",
+  "dependencies": {
+    "command-exists": "^1.2.9"
+  }
+}
